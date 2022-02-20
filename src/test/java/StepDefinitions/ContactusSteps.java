@@ -22,6 +22,7 @@ public class ContactusSteps {
 	@Given("user navigates to contact us page")
 	public void user_navigates_to_contact_us_page() {
 		driversFactory.getDriver().get("http://automationpractice.com/index.php?controller=contact");
+		System.out.println("URL is opened");
 
 	}
 
